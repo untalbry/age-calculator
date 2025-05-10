@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body> 
+        <main>
+            <section class="configuration">
+                <div class="configuration_input">
+                    <label>When is your birthday?</label>
+                    <input type="date" id="birthdate"/>
+                </div>
+                <div class="configuration_input">
+                    <label>Years spected to live:</label>
+                    <input type="number" id="expected-years"/>
+                </div>
+                <button id="calculate">CALCULATE</button>
+            </section>
+            <section class="live_preview">
+                <div class="live_preview_progress">
+                    <div>
+                        <progress id="year" max="100" value="0">0%</progress>
+                        <label id="yearsLabel">Year: 0%</label>
+                    </div>
+                    <div>
+                        <progress id="month" max="100" value="0"></progress>
+                        <label id="monthLabel">Month: 0%</label>
+                    </div>
+                    <div>
+                        <progress id="week" max="100" value="0"></progress>
+                        <label id="weekLabel">Week: 0%</label>
+                    </div>
+                    <div>
+                        <progress id="day" max="100" value="0"></progress>
+                        <label id="dayLabel">Day: 0%</label>
+                    </div>
+                    <div>
+                        <progress id="life" max="100" value="0"></progress>
+                        <label id="lifeLabel">Life: 0%</label>
+                    </div>  
+                </div>             
+            </section>
+        </main>
+    </body>
+</html>
